@@ -30,14 +30,6 @@ All code and outputs are in this [`jupyter notebook`](https://github.com/sumitde
 **Findings:**  
 Deep neural networks on imbalanced data performed best in terms of AUC. SMOTE helps traditional NNs generalize better, but in some cases, simple models on raw data outperform oversampled variants. Isolation Forest performed poorly due to limited fraud signal in high-dimensional feature space.
 
-## Key Figures
-
-- [Fig. 1: Fraud network analysis](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/1.Fraud_network_analysis.pdf)  
-- [Fig. 2: Class balancing using SMOTE](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/2.SMOTE_balancing_before_vs_after.pdf)  
-- [Fig. 3: Model performance comparison](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/3.Model_performance.pdf)
-
-All figures are saved as PDFs during notebook execution.
-
 ## 🛠 Setup
 
 1. **Clone this repository**
